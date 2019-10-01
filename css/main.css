@@ -1203,11 +1203,14 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-expand-lg > .container-fluid {
     padding: 0px 15px; } }
 
-/* banner area css
+/* banner area css center no-repeat
 ============================================================================================ */
 .banner-area {
-  background: url(../img/banner/banner-bg.jpg) center no-repeat;
+  background: url(../img/banner/banner-bg.jpg) no-repeat center center/cover;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
   position: relative; }
   @media (max-width: 768px) {
     .banner-area .fullscreen {
